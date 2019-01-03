@@ -1,0 +1,5 @@
+# a.yaml
+key1: aaa
+key2: bbb
+key3:
+  key11: ccc
