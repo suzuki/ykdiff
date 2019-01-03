@@ -2,7 +2,7 @@ import YKDiff from "./YKDiff";
 import Result from "./Result";
 
 const cli = require("cac")();
-const version = "0.1.1";
+const version = "0.1.2";
 
 cli
   .version(version)

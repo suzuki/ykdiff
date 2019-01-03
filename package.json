@@ -1,8 +1,11 @@
 {
   "name": "ykdiff",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "YKDiff: YAML Key diff",
-  "main": "index.js",
+  "bin": {
+    "ykdiff": "./bin/ykdiff"
+  },
+  "main": "./lib/index.js",
   "scripts": {
     "type-check": "tsc --noEmit",
     "type-check:watch": "npm run type-check -- --watch",
